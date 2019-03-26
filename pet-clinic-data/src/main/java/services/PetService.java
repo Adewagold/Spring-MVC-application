@@ -1,11 +1,5 @@
 package services;
 
-import ade.springframework.spgpetclinic.model.Pet;
+public interface PetService extends CrudServices<PetService, Long>{
 
-import java.util.Set;
-
-public interface PetService {
-    Pet findById(Long id);
-    Pet save(Pet pet);
-    Set<Pet> findAll();
 }
