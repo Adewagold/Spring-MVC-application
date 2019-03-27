@@ -3,7 +3,6 @@
     <parent>
         <artifactId>spg-pet-clinic</artifactId>
         <groupId>ade.springframework</groupId>
-        <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
